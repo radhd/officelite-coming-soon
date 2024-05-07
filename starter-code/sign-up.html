@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign up</title>
+  </head>
+  <body class="kumbh-sans-400 bg-[#FAFAFA]">
+    <header>
+      <div class="flex justify-center pb-20 pt-20">
+        <img src="assets/shared/logo.svg" alt="" />
+      </div>
+      <div
+        class="absolute -top-1/3 h-screen w-full bg-cover bg-center bg-no-repeat"
+        style="background-image: url(assets/home/bg-pattern-header.svg)"
+      ></div>
+    </header>
+    <main class="space-y-16">
+      <section>
+        <div class="space-y-6 px-6 text-center">
+          <h1 class="kumbh-sans-700 text-4xl text-[#333950]">
+            Work smarter. Save time.
+          </h1>
+          <p class="kumbh-sans-400 text-base text-[#747B95]">
+            Easily manage your projects. Get on the list and receive in-app
+            perks available only to early subscribers. We are moving into final
+            development and getting ready for official launch soon.
+          </p>
+        </div>
+      </section>
+      <section class="pt- flex w-full justify-center">
+        <!-- Countdown cards -->
+
+        <div class="kumbh-sans-700 z-50 space-y-5 text-center text-[#333950]">
+          <h4 class="tracking-[5px]">
+            COMING <span class="text-[#5175FF]">4 NOV 2020</span>
+          </h4>
+          <div class="flex gap-3 px-6">
+            <!-- First Card -->
+            <div
+              class="flex w-1/4 flex-col rounded-sm bg-[#5175FF] bg-opacity-10 px-4 py-3"
+            >
+              <span class="text-3xl text-[#5175FF]">47</span>
+              <span class="text-sm opacity-50">days</span>
+            </div>
+            <!-- Second Card -->
+            <div
+              class="flex w-1/4 flex-col rounded-sm bg-[#5175FF] bg-opacity-10 px-4 py-3"
+            >
+              <span class="text-3xl text-[#5175FF]">07</span>
+              <span class="text-sm opacity-50">hours</span>
+            </div>
+            <!-- Third Card -->
+            <div
+              class="flex w-1/4 flex-col rounded-sm bg-[#5175FF] bg-opacity-10 px-4 py-3"
+            >
+              <span class="text-3xl text-[#5175FF]">56</span>
+              <span class="text-sm opacity-50">min</span>
+            </div>
+            <!-- Fourth Card -->
+            <div
+              class="flex w-1/4 flex-col rounded-sm bg-[#5175FF] bg-opacity-10 px-4 py-3"
+            >
+              <span class="text-3xl text-[#5175FF]">14</span>
+              <span class="text-sm opacity-50">sec</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="px-6">
+        <form class="space-y-6 bg-white p-6 shadow-custom">
+          <input class="sign-up-form-input" type="text" placeholder="Name" />
+          <input
+            class="sign-up-form-input"
+            type="email"
+            placeholder="Email Address"
+          />
+          <!--  -->
+          <select
+            name=""
+            id=""
+            class="w-full border-b-[1px] border-b-gray-300 p-3"
+          >
+            <option class="" value="basic-pack" selected>
+              Basic Pack <span class="">Free</span>
+            </option>
+          </select>
+          <!--  -->
+          <input
+            class="sign-up-form-input"
+            type="tel"
+            placeholder="Phone Number"
+          />
+          <input class="sign-up-form-input" type="text" placeholder="Company" />
+          <button class="btn-get-started w-full" type="submit">
+            Get on the list
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
