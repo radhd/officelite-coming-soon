@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="script.js" defer></script>
     <title>Sign up</title>
   </head>
   <body class="kumbh-sans-400 bg-[#FAFAFA]">
@@ -74,37 +75,67 @@
           </div>
         </div>
       </section>
-      <!--  -->
+
       <section class="px-6">
-        <form class="space-y-6 bg-white p-6 shadow-custom">
-          <input class="sign-up-form-input" type="text" placeholder="Name" />
-          <input
-            class="sign-up-form-input"
-            type="email"
-            placeholder="Email Address"
-          />
-          <!--  -->
-          <select
-            name=""
-            id=""
-            class="w-full border-b-[1px] border-b-gray-300 p-3"
-          >
-            <option class="" value="basic-pack" selected>
-              Basic Pack <span class="">Free</span>
-            </option>
-          </select>
-          <!--  -->
-          <input
-            class="sign-up-form-input"
-            type="tel"
-            placeholder="Phone Number"
-          />
-          <input class="sign-up-form-input" type="text" placeholder="Company" />
-          <button class="btn-get-started w-full" type="submit">
+        <!-- SELECT MENU -->
+
+        <div id="form" class="space-y-10 rounded-md  bg-white shadow-custom ">
+          <div id="selectMenu" class="kumbh-sans-700 text-[#333950] space-y-5">
+            <div id="selected-btn" class="hover:bg-slate-200">
+              <p>Basic Pack <span class="opacity-40">Free<span><p>
+              <img src="assets/sign-up/icon-arrow-down.svg" alt="icon-arrow-down">
+            </div>
+
+            <!-- Selected -->
+
+            <ul id="not-selected-btns" class="bg-white border-[1px] shadow-selectedShadow rounded-md mx-6 hidden  ">
+
+              <!-- Selected first  -->
+
+              <li id="selected-btn" class="group/item hover:bg-slate-200">
+                <div>
+                  Basic Pack <span class="opacity-40">Free</span>
+                </div>
+                <img class="group/edit invisible group-hover/item:visible"  src="assets/sign-up/icon-check.svg" alt="" />
+              </li>
+
+              <!-- Selected second -->
+
+              <li id="selected-btn" class="group/item hover:bg-slate-200">
+                <div>
+                  Pro Pack <span class="opacity-40">$9.99</span>
+                </div>
+                <img class="group/edit invisible group-hover/item:visible" src="assets/sign-up/icon-check.svg" alt="" />
+              </li>
+
+              <!-- Selected third -->
+
+              <li id="selected-btn" class="group/item hover:bg-slate-200">
+                <div>
+                  Ultimate Pack <span class="opacity-40">$19.19</span>
+                </div>
+                <img class="group/edit invisible group-hover/item:visible" src="assets/sign-up/icon-check.svg" alt="" />
+              </li>
+            </ul>
+          </div>
+
+          <!-- BUTTON -->
+
+          <button class="btn-get-started w-full" type="submit" id="submit">
             Get on the list
           </button>
-        </form>
+        </div>
       </section>
+
+      <!-- Footer -->
+      <footer
+        class="absolute -bottom-full -z-10 h-80 w-full justify-center bg-[#25293A]"
+      >
+        <div
+          class="h-full w-full bg-cover bg-center bg-no-repeat"
+          style="background-image: url(assets/sign-up/bg-pattern-side.svg)"
+        ></div>
+      </footer>
     </main>
   </body>
 </html>
