@@ -17,7 +17,6 @@ selectMenu.addEventListener("click", () => {
 
 // Email validaiton
 // /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
-// Tel validation: /^[0-9]{3,32}$/
 
 const email = document.querySelector(".inputTypes #email");
 const emailImage = document.getElementById("emailImage");
@@ -25,8 +24,6 @@ const emailImage = document.getElementById("emailImage");
 const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 email.addEventListener("input", () => {
-  console.log(email.value);
-  console.log(emailRegex.test(email.value));
   if (emailRegex.test(email.value) || email.value == "") {
     emailImage.classList.add("invisible");
   } else {
