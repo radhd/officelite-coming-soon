@@ -79,57 +79,104 @@
       <!-- SELECT MENU -->
 
       <section class="px-6">
-        
-        <div id="form" class="space-y-10 rounded-md  bg-white shadow-custom ">
+        <!-- Form -->
+        <div id="form" class="rounded-md bg-white px-6 shadow-custom">
+          <!-- Name input -->
 
-          <div id="selectMenu" class="kumbh-sans-700 text-[#333950] space-y-5">
-            
-            <div class="already-selected-btn hover:bg-slate-200 ">
+          <div>
+            <input class="inputTypes w-full" type="text" placeholder="Name" />
+          </div>
+
+          <!-- Email Address -->
+
+          <div>
+            <input class="inputTypes" type="text" placeholder="Email Address" />
+          </div>
+
+          <!-- Dropdown menu -->
+
+          <div id="selectMenu" class="kumbh-sans-700 space-y-5 text-[#333950]">
+            <div
+              class="already-selected-btn hover:border-b-blue-300 hover:bg-blue-50"
+            >
               <div id="choosedOption">
-                <p>Basic Pack <span class="opacity-40">Free<span><p>
+                <p>Basic Pack <span class="opacity-40">Free</span></p>
               </div>
-              
-              <img src="assets/sign-up/icon-arrow-down.svg" alt="icon-arrow-down" />
+
+              <img
+                src="assets/sign-up/icon-arrow-down.svg"
+                alt="icon-arrow-down"
+              />
             </div>
 
             <!-- Selected -->
 
-            <ul id="not-selected-btns" class="bg-white border-[1px]  shadow-selectedShadow rounded-md mx-6 hidden  ">
-
+            <ul
+              id="not-selected-btns"
+              class="shadow-selectedShadow mx-6 hidden rounded-md border-[1px] bg-white"
+            >
               <!-- Selected first  -->
 
-              <li class="selected-btn group/item hover:bg-slate-200 ">
+              <li
+                class="selected-btn group/item hover:border-b-blue-300 hover:bg-blue-50"
+              >
                 <div class="selected-text">
                   Basic Pack <span class="opacity-40">Free</span>
                 </div>
-                <img class="group/edit invisible group-hover/item:visible"  src="assets/sign-up/icon-check.svg" alt="" />
+                <img
+                  class="group/edit invisible group-hover/item:visible"
+                  src="assets/sign-up/icon-check.svg"
+                  alt=""
+                />
               </li>
 
               <!-- Selected second -->
 
-              <li  class="group/item hover:bg-slate-200 selected-btn">
+              <li
+                class="group/item selected-btn hover:border-b-blue-300 hover:bg-blue-50"
+              >
                 <div class="selected-text">
                   Pro Pack <span class="opacity-40">$9.99</span>
                 </div>
-                <img class="group/edit invisible group-hover/item:visible" src="assets/sign-up/icon-check.svg" alt="" />
+                <img
+                  class="group/edit invisible group-hover/item:visible"
+                  src="assets/sign-up/icon-check.svg"
+                  alt=""
+                />
               </li>
 
               <!-- Selected third -->
 
-              <li class="group/item hover:bg-slate-200 selected-btn">
+              <li
+                class="group/item selected-btn hover:border-b-blue-300 hover:bg-blue-50"
+              >
                 <div class="selected-text">
                   Ultimate Pack <span class="opacity-40">$19.19</span>
                 </div>
-                <img class="group/edit invisible group-hover/item:visible" src="assets/sign-up/icon-check.svg" alt="" />
+                <img
+                  class="group/edit invisible group-hover/item:visible"
+                  src="assets/sign-up/icon-check.svg"
+                  alt=""
+                />
               </li>
             </ul>
           </div>
 
+          <div>
+            <input type="tel" class="inputTypes" placeholder="Phone number" />
+          </div>
+
+          <div>
+            <input class="inputTypes" type="text" placeholder="Company" />
+          </div>
+
           <!-- BUTTON -->
 
-          <button class="btn-get-started w-full" type="submit" id="submit">
-            Get on the list
-          </button>
+          <div class="pb-6 pt-10">
+            <button class="btn-get-started w-full" type="submit" id="submit">
+              Get on the list
+            </button>
+          </div>
         </div>
       </section>
 

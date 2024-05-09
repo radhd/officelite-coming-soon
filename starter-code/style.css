@@ -45,3 +45,7 @@
 .already-selected-btn {
   @apply flex cursor-pointer items-center justify-between border-b-[1px] p-4 align-middle;
 }
+
+.inputTypes {
+  @apply flex w-full items-center justify-between border-b-[1px] p-4 align-middle focus:border-b-blue-300 focus:outline-none;
+}
