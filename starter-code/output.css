@@ -974,7 +974,7 @@ video {
   outline-offset: 2px;
 }
 
-#selected-btn {
+.selected-btn {
   display: flex;
   cursor: pointer;
   align-items: center;
@@ -984,9 +984,14 @@ video {
   vertical-align: middle;
 }
 
-.hover\:bg-slate-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+.already-selected-btn {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+  padding: 1rem;
+  vertical-align: middle;
 }
 
 .hover\:bg-slate-200:hover {
