@@ -662,6 +662,14 @@ video {
   top: -10rem;
 }
 
+.top-\[100\%\] {
+  top: 100%;
+}
+
+.top-\[50\%\] {
+  top: 50%;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -758,6 +766,14 @@ video {
   height: 1500px;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .w-1\/4 {
   width: 25%;
 }
@@ -776,6 +792,22 @@ video {
 
 .w-\[500px\] {
   width: 500px;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-col {
@@ -904,6 +936,11 @@ video {
 .bg-red-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-10 {
@@ -1237,6 +1274,30 @@ video {
     top: 0px;
   }
 
+  .md\:left-0 {
+    left: 0px;
+  }
+
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:-right-1 {
+    right: -0.25rem;
+  }
+
+  .md\:-right-52 {
+    right: -13rem;
+  }
+
+  .md\:-right-1\/2 {
+    right: -50%;
+  }
+
+  .md\:-left-1\/2 {
+    left: -50%;
+  }
+
   .md\:order-1 {
     order: 1;
   }
@@ -1345,8 +1406,29 @@ video {
     height: 20rem;
   }
 
+  .md\:min-h-full {
+    min-height: 100%;
+  }
+
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .md\:min-w-full {
+    min-width: 100%;
+  }
+
+  .md\:max-w-xs {
+    max-width: 20rem;
+  }
+
+  .md\:max-w-full {
+    max-width: 100%;
   }
 
   .md\:scale-150 {
@@ -1415,13 +1497,37 @@ video {
     justify-content: normal;
   }
 
+  .md\:overflow-hidden {
+    overflow: hidden;
+  }
+
   .md\:bg-red-300 {
     --tw-bg-opacity: 1;
     background-color: rgb(252 165 165 / var(--tw-bg-opacity));
   }
 
+  .md\:bg-current {
+    background-color: currentColor;
+  }
+
   .md\:bg-cover {
     background-size: cover;
+  }
+
+  .md\:bg-contain {
+    background-size: contain;
+  }
+
+  .md\:bg-right {
+    background-position: right;
+  }
+
+  .md\:bg-left {
+    background-position: left;
+  }
+
+  .md\:bg-left-bottom {
+    background-position: left bottom;
   }
 
   .md\:px-24 {
@@ -1436,6 +1542,14 @@ video {
 
   .md\:pl-10 {
     padding-left: 2.5rem;
+  }
+
+  .md\:pl-28 {
+    padding-left: 7rem;
+  }
+
+  .md\:pl-8 {
+    padding-left: 2rem;
   }
 
   .md\:text-left {
