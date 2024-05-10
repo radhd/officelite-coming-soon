@@ -54,21 +54,27 @@
         <!-- First Card -->
 
         <div
-          class="kumbh-sans-400 space-y-10 rounded-lg bg-white py-10 text-center text-[#333950] shadow-custom"
+          class="kumbh-sans-400 space-y-10 rounded-lg bg-white py-10 text-center align-middle text-[#333950] shadow-custom md:grid md:grid-cols-2 md:justify-items-start md:space-y-4 md:p-12"
         >
-          <h3 class="kumbh-sans-700 text-xl">Basic</h3>
+          <h3 class="kumbh-sans-700 text-xl md:col-start-1">Basic</h3>
 
-          <h2 class="kumbh-sans-700 text-6xl">Free</h2>
-          <span>Up to 5 users for free</span>
+          <h2 class="kumbh-sans-700 text-6xl md:col-start-1 md:row-start-2">
+            Free
+          </h2>
+          <span class="md:col-start-1 md:row-start-3"
+            >Up to 5 users for free</span
+          >
 
-          <div class="space-y-4 text-[#747B95]">
+          <div
+            class="space-y-4 text-[#747B95] md:col-start-2 md:row-span-2 md:row-start-2 md:text-left"
+          >
             <p>Basic document collaboration</p>
             <p>2 GB storage</p>
             <p>Great security and support</p>
           </div>
 
           <button
-            class="kumbh-sans-700 rounded-full bg-[#5175FF] bg-opacity-15 px-10 py-3 text-[#5175FF]"
+            class="kumbh-sans-700 rounded-full bg-[#5175FF] bg-opacity-15 px-10 py-3 text-[#5175FF] md:col-start-1 md:row-start-4"
           >
             Try for Free
           </button>
@@ -76,7 +82,7 @@
 
         <!-- Second card -->
         <div
-          class="kumbh-sans-400 relative space-y-10 overflow-hidden rounded-lg bg-[rgb(81,117,255)] py-10 text-center text-white shadow-custom"
+          class="kumbh-sans-400 md-basic-fee-card relative space-y-10 overflow-hidden rounded-lg bg-[rgb(81,117,255)] py-10 text-center text-white shadow-custom"
         >
           <div
             class="absolute -top-[40%] h-screen w-full bg-contain bg-center bg-no-repeat"
@@ -92,19 +98,21 @@
             "
           ></div>
 
-          <h3 class="kumbh-sans-700 text-xl">Pro</h3>
+          <h3 class="kumbh-sans-700 text-xl md:col-start-1">Pro</h3>
 
-          <h2 class="kumbh-sans-700 text-6xl">$9.99</h2>
-          <span>Per user, billed monthly</span>
+          <h2 class="kumbh-sans-700 text-6xl md:col-start-1">$9.99</h2>
+          <span class="md:col-start-1">Per user, billed monthly</span>
 
-          <div class="space-y-4 text-white text-opacity-75">
+          <div
+            class="space-y-4 text-white text-opacity-75 md:col-start-2 md:row-span-2 md:row-start-2 md:text-left"
+          >
             <p>All essential integrations</p>
             <p>50 GB storage</p>
             <p>More control and insights</p>
           </div>
 
           <button
-            class="kumbh-sans-700 rounded-full bg-white px-10 py-3 text-[#5175FF]"
+            class="kumbh-sans-700 rounded-full bg-white px-10 py-3 text-[#5175FF] md:col-start-1 md:row-start-4"
           >
             Try for Free
           </button>
@@ -112,14 +120,16 @@
 
         <!-- Third Card -->
         <div
-          class="kumbh-sans-400 space-y-10 rounded-lg bg-white py-10 text-center text-[#333950] shadow-custom"
+          class="kumbh-sans-400 md-basic-fee-card space-y-10 rounded-lg bg-white py-10 text-center text-[#333950] shadow-custom"
         >
-          <h3 class="kumbh-sans-700 text-xl">Ultimate</h3>
+          <h3 class="kumbh-sans-700 text-xl md:col-start-1">Ultimate</h3>
 
-          <h2 class="kumbh-sans-700 text-6xl">$19.99</h2>
-          <span>Per user, billed monthly</span>
+          <h2 class="kumbh-sans-700 text-6xl md:col-start-1">$19.99</h2>
+          <span class="md:col-start-1">Per user, billed monthly</span>
 
-          <div class="space-y-4 text-[#747B95]">
+          <div
+            class="space-y-4 text-[#747B95] md:col-start-2 md:row-span-2 md:row-start-2 md:text-left"
+          >
             <p>Robust work management</p>
             <p>100 GB storage</p>
             <p>VIP support</p>
