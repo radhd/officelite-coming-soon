@@ -594,6 +594,18 @@ video {
   top: 65%;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -644,6 +656,14 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -897,6 +917,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#0a153e\] {
+  --tw-text-opacity: 1;
+  color: rgb(10 21 62 / var(--tw-text-opacity));
 }
 
 .text-opacity-75 {
@@ -1203,6 +1228,14 @@ video {
     position: static;
   }
 
+  .xl\:absolute {
+    position: absolute;
+  }
+
+  .xl\:relative {
+    position: relative;
+  }
+
   .xl\:left-3\/4 {
     left: 75%;
   }
@@ -1211,12 +1244,36 @@ video {
     top: 0px;
   }
 
+  .xl\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .xl\:col-start-2 {
+    grid-column-start: 2;
+  }
+
   .xl\:row-span-2 {
     grid-row: span 2 / span 2;
   }
 
+  .xl\:row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+
   .xl\:row-start-2 {
     grid-row-start: 2;
+  }
+
+  .xl\:m-10 {
+    margin: 2.5rem;
+  }
+
+  .xl\:mr-auto {
+    margin-right: auto;
+  }
+
+  .xl\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .xl\:flex {
@@ -1235,8 +1292,16 @@ video {
     height: 100%;
   }
 
+  .xl\:h-\[1000px\] {
+    height: 1000px;
+  }
+
   .xl\:w-1\/4 {
     width: 25%;
+  }
+
+  .xl\:w-full {
+    width: 100%;
   }
 
   .xl\:scale-150 {
@@ -1257,6 +1322,14 @@ video {
     flex-direction: column;
   }
 
+  .xl\:place-content-between {
+    place-content: space-between;
+  }
+
+  .xl\:place-items-center {
+    place-items: center;
+  }
+
   .xl\:items-center {
     align-items: center;
   }
@@ -1265,12 +1338,24 @@ video {
     justify-content: center;
   }
 
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
   .xl\:justify-items-start {
     justify-items: start;
   }
 
+  .xl\:justify-items-center {
+    justify-items: center;
+  }
+
   .xl\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .xl\:gap-8 {
+    gap: 2rem;
   }
 
   .xl\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -1285,12 +1370,26 @@ video {
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
   }
 
+  .xl\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .xl\:bg-cover {
     background-size: cover;
   }
 
   .xl\:bg-top {
     background-position: top;
+  }
+
+  .xl\:bg-center {
+    background-position: center;
+  }
+
+  .xl\:p-10 {
+    padding: 2.5rem;
   }
 
   .xl\:px-0 {
@@ -1326,6 +1425,14 @@ video {
 
   .xl\:pr-\[7rem\] {
     padding-right: 7rem;
+  }
+
+  .xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .xl\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .xl\:text-left {
