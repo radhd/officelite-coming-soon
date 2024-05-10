@@ -51,5 +51,5 @@
 }
 
 .md-basic-fee-card {
-  @apply md:grid md:grid-cols-2 md:justify-items-start md:space-y-4 md:p-12
+  @apply md:grid md:grid-cols-2 md:justify-items-start md:space-y-4 md:p-12 xl:flex xl:flex-col xl:items-center xl:justify-center xl:px-16 xl:align-middle;
 }
