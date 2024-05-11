@@ -8,6 +8,9 @@ const seconds = document.getElementById("seconds");
 
 // Dynamically see date
 
+const comingSoon = "4 NOV 2025";
+coming.textContent = comingSoon; // place data which you want to show.
+
 const comingYear = coming.innerText;
 const comingDate = new Date(comingYear);
 const currentDate = Date.now();
@@ -20,24 +23,18 @@ const milltoHours = Math.floor(
   (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
 );
 const millToMinutes = Math.floor(
-  ((timeDifference % (1000 * 60 * 60)) / 1000) * 60,
+  (timeDifference % (1000 * 60 * 60)) / (1000 * 60),
 );
 const millToSeconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-console.log(milltoHours);
-console.log(millToDays);
-console.log(millToMinutes);
-console.log(millToSeconds);
 
-console.log(`Remaining time until ${comingYear} : ${millToDays}`);
+// Inject data in HTML
 
+// Time animations
 
-
-// Animations
-
-let secValue = 60;
-let minValue = 60;
-let hourValue = 2;
-let dayValue = 9;
+let secValue = millToSeconds;
+let minValue = millToMinutes;
+let hourValue = milltoHours;
+let dayValue = millToDays;
 
 const timeFunction = setInterval(() => {
   secValue--;
