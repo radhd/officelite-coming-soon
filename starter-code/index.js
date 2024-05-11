@@ -10,8 +10,8 @@ const seconds = document.getElementById("seconds");
 
 const comingSoon = "4 NOV 2025";
 coming.textContent = comingSoon; // place data which you want to show.
-
 const comingYear = coming.innerText;
+
 const comingDate = new Date(comingYear);
 const currentDate = Date.now();
 const timeDifference = comingDate.getTime() - currentDate;
