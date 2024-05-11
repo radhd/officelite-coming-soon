@@ -54,6 +54,7 @@ Users should be able to:
 - Extend customized classes
 - How to create class components
 - Create customized modern forms.
+- How to work on stage and commit changes.
 - Use time intervals in javascript
 - Inject data in the HTML dynamically.
 - Use type modules and export / import functions.
