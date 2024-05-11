@@ -10,11 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="index.js" defer></script>
     <title>Home</title>
   </head>
   <body class="bg-[#FAFAFA]">
     <header>
       <!-- LOGO -->
+
       <div
         class="flex justify-center pb-20 pt-20 md:justify-normal md:pl-10 xl:px-40"
       >
@@ -99,7 +101,7 @@
           ></div>
 
           <div
-            class="absolute bottom-4 h-screen w-full bg-bottom bg-no-repeat"
+            class="absolute bottom-4 -z-10 h-screen w-full bg-bottom bg-no-repeat"
             style="
               background-image: url(assets/home/bg-pattern-header-line.svg);
             "
@@ -119,7 +121,7 @@
           </div>
 
           <button
-            class="kumbh-sans-700 cursor-pointer rounded-full bg-white px-10 py-3 text-[#5175FF] hover:bg-opacity-25 md:col-start-1 md:row-start-4"
+            class="kumbh-sans-700 z-50 cursor-pointer rounded-full bg-white px-10 py-3 text-[#5175FF] hover:bg-opacity-25 md:col-start-1 md:row-start-4"
           >
             Try for Free
           </button>
@@ -157,7 +159,7 @@
           class="kumbh-sans-700 absolute bottom-[20%] z-50 space-y-5 text-center text-white md:-bottom-1 md:w-72 md:pb-10 xl:flex xl:w-full xl:px-40"
         >
           <h4 class="-top-5 tracking-[5px] xl:absolute">
-            COMING <span class="text-[#5175FF]">4 NOV 2020</span>
+            COMING <span id="coming" class="text-[#5175FF]">4 NOV 2025</span>
           </h4>
 
           <div
@@ -165,22 +167,22 @@
           >
             <!-- First Card -->
             <div class="flex w-1/4 flex-col rounded-sm bg-[#333950] px-4 py-3">
-              <span class="text-3xl">47</span>
+              <span id="days" class="text-3xl">47</span>
               <span class="text-sm opacity-50">days</span>
             </div>
             <!-- Second Card -->
             <div class="flex w-1/4 flex-col rounded-sm bg-[#333950] px-4 py-3">
-              <span class="text-3xl">07</span>
+              <span id="hours" class="text-3xl">07</span>
               <span class="text-sm opacity-50">hours</span>
             </div>
             <!-- Third Card -->
             <div class="flex w-1/4 flex-col rounded-sm bg-[#333950] px-4 py-3">
-              <span class="text-3xl">56</span>
+              <span id="minutes" class="text-3xl">60</span>
               <span class="text-sm opacity-50">min</span>
             </div>
             <!-- Fourth Card -->
             <div class="flex w-1/4 flex-col rounded-sm bg-[#333950] px-4 py-3">
-              <span class="text-3xl">14</span>
+              <span id="seconds" class="text-3xl">60</span>
               <span class="text-sm opacity-50">sec</span>
             </div>
           </div>
