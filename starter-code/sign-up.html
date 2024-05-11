@@ -10,7 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="script.js" defer></script>
+    <script type="module" src="index.js" defer></script>
+    <script type="module" src="script.js" defer></script>
+
     <title>Sign up</title>
   </head>
   <body class="kumbh-sans-400 bg-[#FAFAFA] xl:pl-40">
@@ -30,7 +32,7 @@
     >
       <section>
         <div
-          class="space-y-6 px-6 text-center md:px-24 lg:col-start-1 xl:px-0 xl:text-left"
+          class="lg:col-start-1 space-y-6 px-6 text-center md:px-24 xl:px-0 xl:text-left"
         >
           <h1 class="kumbh-sans-700 text-4xl text-[#333950] xl:text-6xl">
             Work smarter. Save time.
@@ -49,35 +51,35 @@
 
         <div class="kumbh-sans-700 z-50 space-y-5 text-center text-[#333950]">
           <h4 class="tracking-[5px] xl:pr-12">
-            COMING <span class="text-[#5175FF]">4 NOV 2020</span>
+            COMING <span id="coming" class="text-[#5175FF]">4 NOV 2020</span>
           </h4>
           <div class="flex gap-3 px-6">
             <!-- First Card -->
             <div
               class="flex w-1/4 flex-col rounded-md bg-[#5175FF] bg-opacity-10 px-4 py-3"
             >
-              <span class="text-3xl text-[#5175FF]">47</span>
+              <span id="days" class="text-3xl text-[#5175FF]">47</span>
               <span class="text-sm opacity-50">days</span>
             </div>
             <!-- Second Card -->
             <div
               class="flex w-1/4 flex-col rounded-md bg-[#5175FF] bg-opacity-10 px-4 py-3"
             >
-              <span class="text-3xl text-[#5175FF]">07</span>
+              <span id="hours" class="text-3xl text-[#5175FF]">07</span>
               <span class="text-sm opacity-50">hours</span>
             </div>
             <!-- Third Card -->
             <div
               class="flex w-1/4 flex-col rounded-md bg-[#5175FF] bg-opacity-10 px-4 py-3"
             >
-              <span class="text-3xl text-[#5175FF]">56</span>
+              <span id="minutes" class="text-3xl text-[#5175FF]">56</span>
               <span class="text-sm opacity-50">min</span>
             </div>
             <!-- Fourth Card -->
             <div
               class="flex w-1/4 flex-col rounded-md bg-[#5175FF] bg-opacity-10 px-4 py-3"
             >
-              <span class="text-3xl text-[#5175FF]">14</span>
+              <span id="seconds" class="text-3xl text-[#5175FF]">14</span>
               <span class="text-sm opacity-50">sec</span>
             </div>
           </div>

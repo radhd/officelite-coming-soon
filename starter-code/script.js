@@ -1,3 +1,5 @@
+import { initializeCountdown } from "./index";
+
 const selectMenu = document.getElementById("selectMenu");
 const notSelected = document.getElementById("not-selected-btns");
 const selectedBtns = document.querySelectorAll(".selected-btn");
@@ -31,4 +33,4 @@ email.addEventListener("input", () => {
   }
 });
 
-
+initializeCountdown("4 NOV 2025");
